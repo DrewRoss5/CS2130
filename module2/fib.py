@@ -3,7 +3,6 @@ def recursive_fib(n):
         return n
     else:
         return recursive_fib(n - 2) + recursive_fib(n - 1)
-    return 0
 
 def fast_fib(n):
     prev = 0
